@@ -226,11 +226,14 @@ window.open("https://youtu.be/XVm1izmaLXY");
 var {
 value: txt
 } = await swal.fire({
-title: "Dedicated Song",
-}); if (txt) {
+title: "Dedicated Song", input: "text",
+}); if (txt = "Christine") {
 await swal.fire("I LOVE YOU TO THE MOON AND BACK ENJOY THE SONG, LOVE! <3");
 wndws(txt);
-} 
+} else {
+await swal.fire("Who are you?");
+cj();
+}
 }
 </script>
 </body>
