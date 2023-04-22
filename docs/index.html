@@ -205,7 +205,7 @@ Press the heart, mahal.
 
 <script>
 
-var music = "";
+var musik = "";
 
 </script>
 <script>
@@ -214,9 +214,9 @@ once: true,
 });
 </script>
 <script>
-if (music == "") {
-music = "https://dekatutorial.github.io/Selamat%20Ulang%20Tahun%20[Jamrud].mp3";
-} var audio = new Audio(music); audio.loop = true; audio.autoplay = true; function mulai() {
+if (musik == "") {
+musik = "https://artsvn.github.io/gift.github.io/bgm.mp3";
+} var audio = new Audio(musik); audio.loop = true; audio.autoplay = true; function mulai() {
 audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () {
 document.querySelector(".open").style.display = "none";
 }, 1000);
@@ -226,13 +226,11 @@ window.open("https://youtu.be/XVm1izmaLXY");
 var {
 value: txt
 } = await swal.fire({
-title: "Dedicated Song", input: "text",
-}); if (txt = "Christine") {
+title: "Dedicated Song",
+}); if (txt) {
 await swal.fire("I LOVE YOU TO THE MOON AND BACK ENJOY THE SONG, LOVE! <3");
 wndws(txt);
-} else {
-await swal.fire("Who are you?"); cj();
-}
+} 
 }
 </script>
 </body>
